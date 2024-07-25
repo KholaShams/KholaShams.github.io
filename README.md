@@ -1,4 +1,4 @@
-# Data Portfolio : Excel, SQL, Power BI
+# Data Project : Excel, SQL, Power BI
 
 # Table of Contents
 
@@ -229,7 +229,7 @@ having count(*) > 1
 ![UK_top_Youtubers](https://github.com/user-attachments/assets/fdafd94d-b0c0-4b4e-b51f-d79fd5c7bafd)
 
 # DAX Measures
-## 1. Total Subscribers(M)
+1. Total Subscribers(M)
 ```dax
 Subscriber Engagement Rate = 
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers[total_subscribers])
@@ -239,7 +239,7 @@ VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
 RETURN subscriberEngRate 
 
 ```
-## 2. Total Views (B)
+2. Total Views (B)
 ```dax
 Total Views (B) = 
 VAR billion = 1000000000
@@ -249,7 +249,7 @@ VAR totalViews = ROUND(sumOfTotalViews / billion, 2)
 RETURN totalViews
 
 ```
-## 3. Total Videos
+3. Total Videos
 ```dax
 Total Videos = 
 VAR totalVideos = SUM(view_uk_youtubers[total_videos])
@@ -257,7 +257,7 @@ VAR totalVideos = SUM(view_uk_youtubers[total_videos])
 RETURN totalVideos
 
 ```
-## 4. Average Views Per Video(M)
+4. Average Views Per Video(M)
 ```dax
 Average Views per Video (M) = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers[total_views])
@@ -268,7 +268,7 @@ VAR finalAvgViewsPerVideo = DIVIDE(avgViewsPerVideo, 1000000, BLANK())
 RETURN finalAvgViewsPerVideo 
 
 ```
-## 5. Subscribber Engagement Rate
+5. Subscribber Engagement Rate
 ```dax
 Subscriber Engagement Rate = 
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers[total_subscribers])
@@ -278,7 +278,7 @@ VAR subscriberEngRate = DIVIDE(sumOfTotalSubscribers, sumOfTotalVideos, BLANK())
 RETURN subscriberEngRate 
 
 ```
-## 6. Views Per Subscriber
+6. Views Per Subscriber
 ```dax
 Views Per Subscriber = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers[total_views])
