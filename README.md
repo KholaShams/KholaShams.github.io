@@ -85,7 +85,6 @@ Some of the data visuals that may be appropriate in answering our questions incl
 - Scorecards
 - Horizontal bar chart
 
-![Dashboard-Mockup](Dashboard-Mockup)
 
 ## Tools
 | Tool         | Purpose                                                   |
@@ -94,7 +93,6 @@ Some of the data visuals that may be appropriate in answering our questions incl
 | SQL Server   | Cleaning, testing, and analyzing the data                 |
 | Power BI     | Visualizing the data via interactive dashboards           |
 | GitHub       | Hosting the project documentation and version control     |
-| Mockup AI    | Designing the wireframe/mockup of the dashboard           |
 
 ## Development
 ### Pseudocode
